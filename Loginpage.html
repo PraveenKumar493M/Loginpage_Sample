@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>LoginPage</title>
+		<link rel="stylesheet" type="text/css" href="Logincss.css">
+		<form action="Loginsuccess.html">
+	</head>
+	<body>
+	<form>
+		<h1>LOGIN</h1>
+		<label>Username</label>
+		<input type="text" name="username" id="username" required>
+		<label>Password</label>
+		<input type="PassWord" name="password" id="password" required>
+		<button onclick="validate()">Login</button><hr>
+		<a>ForgetPassword</a>
+		<p id="demo"></p>
+    <script>
+        
+	    function validate(){
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if ( username == "Formget" && password == "formget@123"){
+        alert ("Login successfully");
+        // Redirecting to other page.
+        return false;
+    }
+      /*else{
+        attempt --;// Decrementing by one.
+        alert("You have left "+attempt+" attempt;");
+   // Disabling fields after 3 attempts.
+        if( attempt == 0){
+        document.getElementById("username").disabled = true;
+        document.getElementById("password").disabled = true;
+        document.getElementById("valiate").disabled = true;
+        return false;
+}
+}*/
+}
+		</script>
+		
+	</form>
+	</body>
+	</html>	
