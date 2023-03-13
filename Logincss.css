@@ -5,6 +5,7 @@
 		text-align: center;
 
 	}
+
 	body{
 		height: 100vh;
 		width: 100%;
@@ -16,6 +17,7 @@
         text-decoration-color: #3f5efb;
 
 	}
+
 	form{
 		text-decoration-color: #3f5efb;
 		padding-top: 10%;
@@ -31,6 +33,7 @@
 		border-bottom: 1px solid white;
 	
 	}
+
 	form.before{
 		content:  '';
 		position: absolute;
