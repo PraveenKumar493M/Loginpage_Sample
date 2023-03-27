@@ -3,7 +3,6 @@
 		box-sizing: border-box;
 		flex: 10px;
 		text-align: center;
-
 	}
 
 	body{
@@ -15,7 +14,6 @@
 	    padding-right: 20%;
 		background: linear-gradient(to left,#3f5efb,#fc4666,#fc432223);
         text-decoration-color: #3f5efb;
-
 	}
 
 	form{
@@ -45,7 +43,6 @@
 		border-radius:50%;
 		z-index:-1;
 		opacity: .8;
-
 	}
 
 	h1{
@@ -56,8 +53,7 @@
 		color: white;
 		text-shadow: 2px 2px 4px black;
 		letter-spacing: 3px;
-		margin-bottom: 5%;
-		
+		margin-bottom: 5%;	
         }
     label{
     	font-size: 30px;
@@ -66,7 +62,6 @@
     	margin-left: 10%;
     	opacity: .8;
     	text-shadow: 2px 2px 4px black;
-
     }
     input{
 		font-size: 20px;
