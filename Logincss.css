@@ -4,6 +4,7 @@
 		flex: 10px;
 		text-align: center;
 	}
+
 	body{
 		height: 100vh;
 		width: 100%;
@@ -14,6 +15,7 @@
 		background: linear-gradient(to left,#3f5efb,#fc4666,#fc432223);
         text-decoration-color: #3f5efb;
 	}
+
 	form{
 		text-decoration-color: #3f5efb;
 		padding-top: 10%;
